@@ -1,12 +1,10 @@
 {
-  "java.errors.incompleteClasspath.severity": "ignore",
-  "problems.decorations.enabled": false,
-  "editor.semanticHighlighting.enabled": false,
-  "editor.errorSquiggles": "enabled",  // 에러 squiggle 유지
-  "workbench.colorCustomizations": {
-    "editorWarning.foreground": "#00000000",     // 노란 밑줄 글자색 제거
-    "editorWarning.border": "#00000000",         // 노란 밑줄 경계선 제거
-    "editorInfo.foreground": "#00000000",        // 파란줄 정보성 경고 제거
-    "editorInfo.border": "#00000000"             // 파란줄 테두리 제거
-  }
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+    "reportImportCycles": "none"
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "python.languageServer": "Pylance",
+  "python.analysis.autoImportCompletions": true
 }
